@@ -8,6 +8,7 @@ loudRejection();
 
 program
   .version(package.version)
+  .description(package.description)
   .usage('[options] <source_file> <target_file>')
   .option('-s, --shrink', 'Shrink image to actual downgraded size')
   .action((source, target, options) => {
