@@ -15,7 +15,6 @@ Install with npm:
 
 ```
 npm install -g https://github.com/Hacquebord-Buckles/downgrade-avatar.git
-
 ```
 
 ## Usage
