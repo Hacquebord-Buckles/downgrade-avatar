@@ -1,7 +1,7 @@
 {
   "name": "downgrade-avatar",
   "version": "0.1.0",
-  "description": "Downgrades high-quality avatars to a more acceptable level",
+  "description": "Downgrade high-quality avatars to a more acceptable level",
   "main": "./src/downgrade.js",
   "bin": {
     "downgrade-avatar": "./bin/downgrade-avatar"
