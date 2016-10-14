@@ -1,6 +1,13 @@
 const fileExists = require('file-exists');
 const gm = require('gm').subClass({ imageMagick: true });
 
+function calculateReduction(width, height) {
+  return {
+    width: Math.sqrt(width * 12.5),
+    height: Math.sqrt(height * 12.5)
+  };
+}
+
 function getSize(image) {
   return new Promise((resolve, reject) => {
     image.size((error, size) => {
@@ -41,11 +48,17 @@ function downgrade(source, destination, options = {}) {
 
     resolve(getSize(image)
       .then((size) => {
+        const { width, height } = size;
+        const {
+          width: newWidth,
+          height: newHeight
+        } = calculateReduction(width, height);
+
         image.colors(8)
-             .scale(100, 100);
+             .scale(newWidth, newHeight);
 
         if (options.maintainSize) {
-          image.scale(size.width, size.height);
+          image.scale(width, height);
         }
 
         return saveImage(image, destination);
