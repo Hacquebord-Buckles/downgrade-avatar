@@ -1,0 +1,21 @@
+{
+  "name": "downgrade-avatar",
+  "version": "0.1.0",
+  "description": "Downgrades high-quality avatars to a more acceptable level",
+  "main": "./src/downgrade.js",
+  "bin": {
+    "downgrade-avatar": "./bin/downgrade-avatar"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Roald Hacquebord <roald@hacquebordbuckles.nl>",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.9.0",
+    "file-exists": "^2.0.0",
+    "gm": "^1.23.0",
+    "loud-rejection": "^1.6.0",
+    "node-emoji": "^1.4.1"
+  }
+}
