@@ -29,4 +29,4 @@ npm install -g https://github.com/Hacquebord-Buckles/downgrade-avatar.git
 ```
 
 ## Example (before/after)
-![Downgrade avatar example - before](https://hacquebord-buckles.github.io/downgrade-avatar/example/0%20-%20before.jpg)![Downgrade avatar example - after](https://hacquebord-buckles.github.io/downgrade-avatar/example/1%20-%20after.jpg)
+![Downgrade avatar example - before](https://hqbk.github.io/downgrade-avatar/example/0%20-%20before.jpg)![Downgrade avatar example - after](https://hqbk.github.io/downgrade-avatar/example/1%20-%20after.jpg)
