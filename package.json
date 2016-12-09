@@ -15,8 +15,7 @@
     "commander": "^2.9.0",
     "file-exists": "^2.0.0",
     "gm": "^1.23.0",
-    "loud-rejection": "^1.6.0",
-    "node-emoji": "^1.4.1"
+    "loud-rejection": "^1.6.0"
   },
   "directories": {
     "doc": "docs"
