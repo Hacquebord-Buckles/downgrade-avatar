@@ -17,5 +17,23 @@
     "gm": "^1.23.0",
     "loud-rejection": "^1.6.0",
     "node-emoji": "^1.4.1"
-  }
+  },
+  "directories": {
+    "doc": "docs"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hqbk/downgrade-avatar.git"
+  },
+  "keywords": [
+    "avatar",
+    "downgrade",
+    "retro",
+    "brutal"
+  ],
+  "bugs": {
+    "url": "https://github.com/hqbk/downgrade-avatar/issues"
+  },
+  "homepage": "https://github.com/hqbk/downgrade-avatar#readme"
 }
